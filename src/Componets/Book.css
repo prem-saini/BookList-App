@@ -1,0 +1,188 @@
+.Book {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    color: blue;
+}
+
+p {
+    color: blue;
+}
+
+
+.Book_left {
+    width: 40%;
+    background-color: #e2e2e2;
+    padding: 100px;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+
+
+input {
+    width: 250px;
+    height: 40px;
+    margin: 10px;
+    border: none;
+    padding: 0px 0px 0px 10px;
+}
+
+.Add_btn {
+    width: 150px;
+    text-align: center;
+    height: 40px;
+    background-color: aqua;
+    color: black;
+    border: none;
+    border-radius: 10px;
+
+}
+
+.Book_right {
+    width: 25%;
+    background-color: #e2e2e2;
+    margin-left: 30px;
+
+}
+
+.table {
+    display: flex;
+    justify-content: space-around;
+    padding: 0px 0px;
+}
+
+tbody {
+    margin-top: 25px;
+}
+
+th {
+    padding: 20px;
+}
+
+@media screen and (max-width:545px) {
+    .Book {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+    }
+
+    h1 {
+        color: blue;
+    }
+
+    p {
+        color: blue;
+    }
+
+
+    .Book_left {
+        width: 40%;
+        background-color: #e2e2e2;
+        padding: 100px;
+    }
+
+    form {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+
+
+    input {
+        width: 250px;
+        height: 40px;
+        margin: 10px;
+        border: none;
+        padding: 0px 0px 0px 10px;
+    }
+
+    .Add_btn {
+        width: 150px;
+        text-align: center;
+        height: 40px;
+        background-color: aqua;
+        color: black;
+        border: none;
+        border-radius: 10px;
+
+    }
+
+    .Book_right {
+        margin-top: 30px;
+        width: 70%;
+        height: auto;
+        background-color: #e2e2e2;
+        margin-left: 0px;
+
+    }
+
+    .table {
+        display: flex;
+        justify-content: space-around;
+        padding: 0px 0px;
+    }
+
+    tbody {
+        margin-top: 5px;
+    }
+
+    th {
+        padding: 10px;
+    }
+}
+
+@media screen and (max-width:768px) and (min-width:546px) {
+    .Book_left {
+        width: 90%;
+        background-color: #e2e2e2;
+        padding: 100px;
+    }
+
+    h1 {
+        color: blue;
+    }
+
+    p {
+        color: blue;
+    }
+
+    .get_data {
+        width: 30%;
+    }
+
+    .Add_btn {
+        width: 150px;
+        text-align: center;
+        height: 40px;
+        background-color: aqua;
+        color: black;
+        border: none;
+        border-radius: 10px;
+
+    }
+
+    .Book_right {
+        margin-top: 30px;
+        width: 50%;
+        height: auto;
+        background-color: #e2e2e2;
+        margin-left: 0px;
+
+    }
+
+}
